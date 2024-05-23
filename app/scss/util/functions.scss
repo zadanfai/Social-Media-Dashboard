@@ -1,0 +1,8 @@
+
+// Source: https://css-tricks.com/snippets/sass/px-to-em-functions/
+@function rem($pixels, $context: 16) {
+    @return ($pixels / $context) * 1rem;
+}
+// Using math.div because in dartsass 2.0 using '/' for division is depracated
+
+// Function to convert pixels to rem
